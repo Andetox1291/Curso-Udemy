@@ -48,3 +48,5 @@ def numeros_persona(nombre:str, *args):
     for n in args:
         suma_numeros += n
     return f'{nombre}, la suma de tus números es {suma_numeros}'
+
+print(numeros_persona('andres',6,7,8,9,10))
